@@ -1,0 +1,16 @@
+[user]
+	name = Brandon Adams
+	email = emidln@gmail.com
+
+[color]
+	ui = auto
+
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %C(blue)<%an>%Creset %s %Cgreen(%cr)' --abbrev-commit --date=relative
+
+[github]
+	user = emidln
+[core]
+	editor = /usr/local/bin/vim
+[push]
+	default = simple
