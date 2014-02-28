@@ -36,3 +36,8 @@ alias ll="ls -lah"
 
 # setup python's virtualenv functions
 . /usr/local/bin/virtualenvwrapper.sh
+
+# setup bash completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+	. $(brew --prefix)/etc/bash_completion
+fi
